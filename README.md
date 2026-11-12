@@ -115,7 +115,7 @@ The vertical stripes are classes with a fixed duration. Where duration varies (a
 Spearman correlation between duration and cost, calculated separately for each class that has variable durations.
 
 ### 7. Zero recorded payer coverage
-![Zero coverage](outputs/figures/07_zero_coverage.png)
+![Zero coverage](07_zero_coverage.png)
 
 Zero coverage varies by class but far more by payer. It must not be read as "uninsured".
 
