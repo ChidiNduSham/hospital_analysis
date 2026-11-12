@@ -85,32 +85,32 @@ A fixed random seed (`SEED = 42`) is used so every random step (for example, the
 ## Figures
 
 ### 1. Encounters by class
-![Encounters by class](outputs/figures/01_encounters_by_class.png)
+![Encounters by class](01_encounters_by_class.png)
 
 Ambulatory visits make up about 45% of records; inpatient stays are the smallest group. The groups are very unequal in size.
 
 ### 2. Encounters by year
-![Encounters by year](outputs/figures/02_encounters_by_year.png)
+![Encounters by year](02_encounters_by_year.png)
 
 Volume peaks in 2014 and 2021. The first and last years (2011 and 2022) are partial and should not be compared with full years.
 
 ### 3. Distribution of total claim cost
-![Cost distribution](outputs/figures/03_cost_distribution.png)
+![Cost distribution](03_cost_distribution.png)
 
 On the original scale almost every record sits near zero, with a very long tail. The log scale reveals several distinct peaks, suggesting different types of encounter with very different typical costs.
 
 ### 4. Cost by encounter class
-![Cost by class](outputs/figures/04_cost_by_class_boxplot.png)
+![Cost by class](04_cost_by_class_boxplot.png)
 
 Classes occupy markedly different cost levels, with some showing wide within-class spread.
 
 ### 5. Duration against cost
-![Duration vs cost](outputs/figures/05_duration_vs_cost.png)
+![Duration vs cost](05_duration_vs_cost.png)
 
 The vertical stripes are classes with a fixed duration. Where duration varies (ambulatory, outpatient), cost tends to rise with it.
 
 ### 6. Duration–cost correlation by class
-![Correlation by class](outputs/figures/06_duration_cost_correlation_by_class.png)
+![Correlation by class](06_duration_cost_correlation_by_class.png)
 
 Spearman correlation between duration and cost, calculated separately for each class that has variable durations.
 
@@ -198,6 +198,6 @@ data/
 
 ## Author
 
-<Shammah Ndubuisi>
+`Shammah Ndubuisi`
 
 
