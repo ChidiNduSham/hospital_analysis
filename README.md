@@ -198,6 +198,6 @@ data/
 
 ## Author
 
-`Shammah Ndubuisi`
+Shammah Ndubuisi
 
 
