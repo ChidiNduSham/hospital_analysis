@@ -17,7 +17,6 @@ The project covers data inspection and quality auditing, exploratory data analys
 - [Data-quality decisions](#data-quality-decisions)
 - [Limitations](#limitations)
 - [Recommendations](#recommendations)
-- [Repository structure](#repository-structure)
 - [Reproducing the analysis](#reproducing-the-analysis)
 - [Privacy](#privacy)
 
@@ -124,7 +123,7 @@ Zero coverage varies by class but far more by payer. It must not be read as "uni
 
 ## Data-quality decisions
 
-The notebook logs every check, finding and action. The complete table is in [`reports/Data_Quality_Summary.md`](reports/Data_Quality_Summary.md). The decisions with the most influence on interpretation are:
+The notebook logs every check, finding and action. The complete table is in [Data_Quality_Summary.md`](Data_Quality_Summary.md). The decisions with the most influence on interpretation are:
 
 - **Cost fields do not reconcile.** Total claim cost equals base encounter cost plus procedure costs for only 30% of encounters, so total claim cost is analysed as recorded and is not decomposed.
 - **89 encounters have a zero total claim cost** despite a positive base cost. They are kept and excluded only from log-scale charts.
@@ -156,32 +155,7 @@ The notebook logs every check, finding and action. The complete table is in [`re
 
 These are based on patterns in the supplied data; further information is needed before operational changes are made.
 
----
-
-## Repository structure
-
-```
-.
-├── README.md
-├── Week3_Hospital_Analysis_Data_Science_Simplified.ipynb   # full analysis
-├── Hospital Operations Cost & Encounter Analysis.pdf        # presentation slides
-├── data/                                                    # NOT tracked (see Privacy)
-│   ├── encounters.csv
-│   ├── procedures.csv
-│   ├── payers.csv
-│   ├── organizations.csv
-│   ├── patients.csv
-│   └── data_dictionary.csv
-├── outputs/
-│   ├── figures/                                             # PNG visualisations
-│   └── tables/                                              # CSV summary tables (generated)
-└── reports/
-    └── Data_Quality_Summary.md
-```
-
-`outputs/tables/` and `reports/` are created automatically when the notebook runs.
-
----
+----
 
 ## Reproducing the analysis
 
@@ -224,8 +198,6 @@ data/
 
 ## Author
 
-<!-- Add your name, programme and contact/LinkedIn link here -->
+<Shammah Ndubuisi>
 
-## Licence
 
-<!-- Add a licence (for example, MIT) or remove this section -->
